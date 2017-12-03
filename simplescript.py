@@ -1,15 +1,16 @@
 #Program to find the average expenditure
 
-food = input("How much was spent?")
-travel = input("How much was spent?")
-accessories = input("How much was spent?")
-clothing = input("How much was spent?")
-education = input("How much was spent?")
-health = input("How much was spent?")
+food = input("How much was spent on food?")
+travel = input("How much was spent on travel?")
+accessories = input("How much was spent on accessories?")
+clothing = input("How much was spent on clothing?")
+education = input("How much was spent on education?")
+health = input("How much was spent on health?")
 
-total = food + travel + accessories + clothing + education + health
-average = total / 6
+number = 6
+total = 'food' + 'travel' + 'accessories' + 'clothing' + 'education' + health
+average = total / number
 
-print average
+print (average)
 
 
