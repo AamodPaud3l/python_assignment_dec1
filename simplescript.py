@@ -8,7 +8,7 @@ education = input("How much was spent on education?")
 health = input("How much was spent on health?")
 
 number = 6
-total = 'food' + 'travel' + 'accessories' + 'clothing' + 'education' + health
+total = float(food) + float(travel) + float(accessories) + float(clothing) + float(education) + float(health)
 average = total / number
 
 print (average)
